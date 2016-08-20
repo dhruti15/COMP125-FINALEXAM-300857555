@@ -33,11 +33,11 @@ var core;
     	var img2=document.getElementById("Die02");
 	img2.src = "Assets/images/6.png"
 
-	var bitmap1 = new createjs.Bitmap(img1);
-	stage.addChild(bitmap1);
-	var bitmap2 = new createjs.Bitmap(img2);
-	stage.addChild(bitmap2);
-	bitmap2.x = 200;	
+	var image1 = new createjs.Bitmap(img1);
+	stage.addChild(image1);
+	var image2 = new createjs.Bitmap(img2);
+	stage.addChild(image2);
+	image2.x = 200;	
 
         main();
     }
@@ -93,11 +93,11 @@ var core;
  * appending data
  * 
  */
-	var bitmap1 = new createjs.Bitmap(img1);
-	stage.addChild(bitmap1);
-	var bitmap2 = new createjs.Bitmap(img2);
-	stage.addChild(bitmap2);
-	bitmap2.x = 200;	
+	var image1 = new createjs.Bitmap(img1);
+	stage.addChild(image1);
+	var image2 = new createjs.Bitmap(img2);
+	stage.addChild(image2);
+	image2.x = 200;	
 
 	})
     }
